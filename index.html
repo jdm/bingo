@@ -1,0 +1,69 @@
+<style>
+  #container {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+  }
+
+  #bingo {
+      border-spacing: 0.2em;
+      text-align: center;
+      width: 800px;
+      height: 600px;
+  }
+
+  .wrapper {
+      display: inline-block;
+  }
+
+  .hidden {
+      display: none;
+  }
+
+  #victory {
+      animation: blinker 1s linear infinite;
+      font-size: 100pt;
+  }
+
+  @keyframes blinker {
+      50% {
+          opacity: 0;
+      }
+  }
+
+  #free-space {
+      text-decoration: none;
+  }
+  #free-space:hover {
+      background: none;
+  }
+
+  .checked {
+      text-decoration: line-through;
+      color: red;
+  }
+
+  tr {
+      width: 100%;
+      height: 33%;
+  }
+
+  td {
+      border: 1px solid black;
+      overflow: wrap;
+      width: 33%;
+      font-size: 30pt;
+      padding: 0.2em;
+  }
+
+  td:hover {
+      background: lightgrey;
+  }
+</style>
+<div id="container">
+  <div class="wrapper">
+    <table id="bingo"></table>
+  </div>
+  <div id="victory" class="hidden">YOU DID IT</div>
+</div>
+<script src="bingo.js"></script>
