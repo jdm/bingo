@@ -15,7 +15,7 @@ const choices = [
     "to the hilt",
     "using spit as lube",
     "inappropriate lube liquid",
-    "swallowing him hole",
+    "swallowing him whole",
     "almost blacking out while orgasming",
     "the gentlest of carresses",
     "scared, potter?",
