@@ -27,6 +27,18 @@ const choices = [
     "bodies sliding wetly against each other",
     "ropes of semen",
     "very chaste kisses",
+
+    // real data starts here
+    "Someone adds a third finger",
+    "Someone’s cock gets stripped",
+    "A spent cock",
+    "A back arches",
+    "Cock searching for friction",
+    "Insults as foreplay",
+    "Sobbing",
+    "Switching to first names",
+    "Wet slapping",
+    "Scared, potter?",
 ];
 
 function chooseAndRemove(list) {
