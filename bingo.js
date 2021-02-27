@@ -17,7 +17,7 @@ const choices = [
     "inappropriate lube liquid",
     "swallowing him whole",
     "almost blacking out while orgasming",
-    "the gentlest of carresses",
+    "the gentlest of caresses",
     "scared, potter?",
     "whale sounds",
     "draco's childhood bedroom",
