@@ -12,6 +12,21 @@ const choices = [
     "scars interrupt the proceedings",
     "dragon???",
     "wandless magic lube",
+    "to the hilt",
+    "using spit as lube",
+    "inappropriate lube liquid",
+    "swallowing him hole",
+    "almost blacking out while orgasming",
+    "the gentlest of carresses",
+    "scared, potter?",
+    "whale sounds",
+    "draco's childhood bedroom",
+    "it will only happen once",
+    "pounding into the mattress",
+    "fluttering asshole",
+    "bodies sliding wetly against each other",
+    "ropes of semen",
+    "very chaste kisses",
 ];
 
 function chooseAndRemove(list) {
@@ -24,8 +39,10 @@ function chooseAndRemove(list) {
     return item;
 }
 
-const rows = 3;
-const cols = 3;
+const url = new URL(location.href);
+const rows = url.searchParams.get('size') || 5;
+const cols = rows;
+document.documentElement.style.setProperty('--num', rows);
 
 let table = document.getElementById('bingo');
 for (let i = 0; i < rows; i++) {

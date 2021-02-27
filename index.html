@@ -1,16 +1,24 @@
 <!doctype html>
 <style>
+  :root {
+      --num: 3;
+  }
+
   #container {
-      width: 100%;
-      height: 100%;
+      swidth: 75vw;
+      sheight: 100vh;
       text-align: center;
   }
 
   #bingo {
-      border-spacing: 0.2em;
+      border-spacing: 0.5em;
       text-align: center;
-      width: 800px;
-      height: 600px;
+      width: 75vw;
+      height: 75vh;
+      swidth: 100%;
+      sheight: 75%;
+      swidth: 800px;
+      sheight: 600px;
   }
 
   .wrapper {
@@ -22,7 +30,7 @@
   }
 
   #victory {
-      animation: blinker 1s linear infinite;
+      animation: blinker 3s linear infinite;
       font-size: 100pt;
   }
 
@@ -48,15 +56,15 @@
 
   tr {
       width: 100%;
-      height: 33%;
+      height: calc(100% / var(--num));
   }
 
   td {
       border: 1px solid black;
-      overflow: wrap;
-      width: 33%;
-      font-size: 30pt;
-      padding: 0.2em;
+      width: calc(100% / var(--num));
+      font-size: 20pt;
+      padding: 0.5em;
+      user-select: none;
   }
 
   td:hover {
