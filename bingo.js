@@ -39,6 +39,18 @@ const choices = [
     "Switching to first names",
     "Wet slapping",
     "Scared, potter?",
+    "Unyielding hardness",
+    "Trembling legs",
+    "Sectumsempra scars",
+    "\"Breached\"",
+    "Roaring",
+    "Swallowing him whole",
+    "Using spit as Lube",
+    "Taking him dry",
+    "To the hilt",
+    "looking up through eyelashes while giving head",
+    "Eyelashes resting on high/sharp/effeminate cheekbones",
+    "Orgasm painfully ripped from body",
 ];
 
 function chooseAndRemove(list) {
