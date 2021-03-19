@@ -51,6 +51,7 @@ const choices = [
     "looking up through eyelashes while giving head",
     "Eyelashes resting on high/sharp/effeminate cheekbones",
     "Orgasm painfully ripped from body",
+    "Coming on command",
 ];
 
 function chooseAndRemove(list) {
