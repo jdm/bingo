@@ -13,7 +13,6 @@ const choices = [
     //"dragon???",
     "wandless magic lube",
     "'to the hilt'",
-    "using spit as lube",
     "inappropriate lube liquid",
     "swallowing him whole",
     "almost blacking out while orgasming",
