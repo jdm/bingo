@@ -53,6 +53,7 @@ const choices = [
     "Coming on command",
     "Fucked into incoherency",
     "Switching from last to first name",
+    "Someone is tight",
 ];
 
 function chooseAndRemove(list) {
