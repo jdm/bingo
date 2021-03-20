@@ -53,6 +53,7 @@ const choices = [
     "Orgasm painfully ripped from body",
     "Coming on command",
     "Fucked into incoherency",
+    "Switching from last to first name",
 ];
 
 function chooseAndRemove(list) {
