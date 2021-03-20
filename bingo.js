@@ -3,7 +3,7 @@ const choices = [
     //"licking and stuff idk",
     "so hot, so wet",
     "tongues battling for dominance",
-    "pressing into the mattress",
+    //"pressing into the mattress",
     //"teeth teeth teeth teeth",
     //"predicament bondage (for chuck)",
     //"a surfeit of semen",
